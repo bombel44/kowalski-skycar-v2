@@ -1,1 +1,0 @@
-# kowalski-skycar-v2
