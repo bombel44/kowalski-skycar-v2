@@ -784,9 +784,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# home Section
 --------------------------------------------------------------*/
-.hero {
+.home {
   width: 100%;
   min-height: 100vh;
   position: relative;
@@ -796,7 +796,7 @@ section,
   justify-content: center;
 }
 
-.hero img {
+.home img {
   position: absolute;
   inset: 0;
   display: block;
@@ -806,7 +806,7 @@ section,
   z-index: 1;
 }
 
-.hero:before {
+.home:before {
   content: "";
   background: color-mix(in srgb, var(--background-color), transparent 30%);
   position: absolute;
@@ -814,29 +814,29 @@ section,
   z-index: 2;
 }
 
-.hero .container {
+.home .container {
   position: relative;
   z-index: 3;
 }
 
-.hero h2 {
+.home h2 {
   margin: 0;
   font-size: 56px;
   font-weight: 700;
   font-family: var(--nav-font);
 }
 
-.hero h2 span {
+.home h2 span {
   color: var(--accent-color);
 }
 
-.hero p {
+.home p {
   margin: 10px 0 0 0;
   font-size: 24px;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 
-.hero .icon-box {
+.home .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 70%);
@@ -848,13 +848,13 @@ section,
   justify-content: center;
 }
 
-.hero .icon-box i {
+.home .icon-box i {
   font-size: 32px;
   line-height: 1;
   color: var(--accent-color);
 }
 
-.hero .icon-box h3 {
+.home .icon-box h3 {
   font-weight: 700;
   margin: 10px 0 0 0;
   padding: 0;
@@ -863,25 +863,25 @@ section,
   line-height: 26px;
 }
 
-.hero .icon-box h3 a {
+.home .icon-box h3 a {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   transition: ease-in-out 0.3s;
 }
 
-.hero .icon-box:hover {
+.home .icon-box:hover {
   border-color: var(--accent-color);
 }
 
-.hero .icon-box:hover h3 a {
+.home .icon-box:hover h3 a {
   color: var(--accent-color);
 }
 
 @media (max-width: 768px) {
-  .hero h2 {
+  .home h2 {
     font-size: 32px;
   }
 
-  .hero p {
+  .home p {
     font-size: 18px;
   }
 }
@@ -991,9 +991,9 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Services Section
+# offer Section
 --------------------------------------------------------------*/
-.services .service-item {
+.offer .service-item {
   background-color: var(--surface-color);
   text-align: center;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
@@ -1002,7 +1002,7 @@ section,
   transition: all ease-in-out 0.3s;
 }
 
-.services .service-item .icon {
+.offer .service-item .icon {
   background: var(--accent-color);
   color: var(--contrast-color);
   margin: 0 auto;
@@ -1016,25 +1016,25 @@ section,
   transition: 0.3s;
 }
 
-.services .service-item .icon i {
+.offer .service-item .icon i {
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
 
-.services .service-item h3 {
+.offer .service-item h3 {
   font-weight: 700;
   margin: 10px 0 15px 0;
   font-size: 22px;
   transition: 0.3s;
 }
 
-.services .service-item p {
+.offer .service-item p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.services .service-item:hover {
+.offer .service-item:hover {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
 }
@@ -1583,11 +1583,11 @@ section,
   margin-bottom: 15px;
 }
 
-.service-details .services-list {
+.service-details .offer-list {
   background-color: var(--surface-color);
 }
 
-.service-details .services-list a {
+.service-details .offer-list a {
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   background-color: color-mix(in srgb, var(--default-color), transparent 96%);
   display: flex;
@@ -1597,26 +1597,26 @@ section,
   transition: 0.3s;
 }
 
-.service-details .services-list a:first-child {
+.service-details .offer-list a:first-child {
   margin-top: 0;
 }
 
-.service-details .services-list a i {
+.service-details .offer-list a i {
   font-size: 16px;
   margin-right: 8px;
   color: var(--accent-color);
 }
 
-.service-details .services-list a.active {
+.service-details .offer-list a.active {
   color: var(--contrast-color);
   background-color: var(--accent-color);
 }
 
-.service-details .services-list a.active i {
+.service-details .offer-list a.active i {
   color: var(--contrast-color);
 }
 
-.service-details .services-list a:hover {
+.service-details .offer-list a:hover {
   background-color: color-mix(in srgb, var(--accent-color), transparent 95%);
   color: var(--accent-color);
 }
@@ -1665,7 +1665,7 @@ section,
   color: var(--contrast-color);
 }
 
-.service-details .services-img {
+.service-details .offer-img {
   margin-bottom: 20px;
 }
 
